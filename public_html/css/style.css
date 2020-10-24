@@ -1,0 +1,267 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep 2020, 12:04:59
+    Author     : taiwo
+*/
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+
+    font-family: Helvetica;
+
+    background-color: rgba(231, 232, 242, 0.27);
+
+}
+
+/* NAVBAR ONE-------------------------------------- */
+
+.navbar_one{
+    background-color: white;
+}
+.navbar_two li{
+    list-style-type: none;
+    
+    cursor: pointer;
+
+
+}
+.navbar_two li:hover{
+    color: black;
+
+}
+.navbar_one li:hover{
+    color: black;
+    cursor: pointer;
+}
+.navbar_one .nav_items{
+    list-style-type: none;
+    left: 60%;
+    padding: 10px 25px;
+
+
+
+}
+.navbar_one a{
+
+    text-decoration: none;
+    color: rgb(146, 154, 164);
+    font-size: 15px;
+}
+.navbar_one ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(124, 135, 150);
+    font-size: 17px;
+    font-weight:bolder;
+
+}
+
+.navbar_one input{
+    margin-left: 32%;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+
+
+}
+.navbar_one .search{
+
+    right: 42%;
+}
+
+.navbar_one .logo{
+    cursor: pointer;
+}
+
+
+
+/* NAVBAR TWP -----------------------------------*/
+.navbar_two{
+    background-color: white;
+    border-bottom-style: solid;
+     border-color: rgba(199, 209, 228, 0.32);
+     border-width: 1px;
+
+}
+.navbar_two li{
+    list-style-type: none;
+    padding: 15px;
+    cursor: pointer;
+
+
+}
+.navbar_two .logo{
+    list-style-type: none;
+}
+
+.navbar_two a{
+    text-decoration: none;
+}
+.navbar_two li:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar_two ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(146, 154, 164);
+    font-size: 15px;
+
+}
+/* SECTION ONE -----------------------------------*/
+
+section{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+
+
+
+}
+
+section .section  {
+
+    padding: 20px;
+    background-size: auto;
+
+
+}
+
+section .section .card{
+
+    background-color:rgb(7, 24, 78);
+    
+    width: 300px;
+
+
+}
+
+section .section .card h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+section .section .card p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    line-height: 26px;
+        color: white;
+
+}
+
+.section .inner_card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section input{
+
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+
+
+}
+
+
+.section button{
+
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    background-color: rgba(20, 129, 255, 0.68);
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+
+
+}
+
+section .social_media{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-between;
+
+    border: 0.2px solid rgb(230, 231, 239);
+
+}
+section .social_media img{
+    cursor:pointer;
+
+}
+
+.section_three{
+
+    width: 700px;
+}
+
+.section_three h1{
+    font-size: 50px;
+    padding-top: 20px;
+    
+    padding-bottom: 10px;
+
+}
+.section_three p{
+    font-size: 19px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 34px;
+
+}
+
+.section_three h2{     
+
+
+    color: rgb(116, 126, 138);
+}
+
+.section .section_three h1:nth-of-type(2){
+
+
+    padding-top: 50px;
+}
+
+footer{
+    
+    width: 100vw;
+    padding: 110px;
+    text-align: left;
+    background-color: white;
+    border-top-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(199, 209, 228, 0.32);
+    
+}
+.footer_section_one{
+    display: flex;
+    flex-direction: column;
+}
